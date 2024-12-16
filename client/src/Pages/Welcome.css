@@ -1,0 +1,70 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+  }
+  
+  .welcome-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh; /* Center vertically */
+    text-align: center;
+  }
+  
+  .content .heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .content .subtext {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  /* Payment Button */
+  .payment-button {
+    background-color: #1578d0;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .payment-button:hover {
+    background-color: #0d5ba5;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px 0;
+  }
+  
+  .footer-links {
+    margin-bottom: 10px;
+  }
+  
+  .footer-link {
+    color: #1578d0;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  
+  .footer-link:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-text {
+    color: #777;
+    font-size: 0.9rem;
+  }
+  

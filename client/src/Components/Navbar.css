@@ -1,0 +1,62 @@
+/* Override Bootstrap Navbar and ensure full-width fixed positioning */
+.navbar {
+  position: fixed !important; /* Force fixed positioning */
+  top: 0;
+  left: 0;
+  width: 100% !important; /* Ensure it spans the full width */
+  z-index: 1050; /* Keep it on top of all content */
+  background-color: #1578d0 !important; /* Override background color */
+  color: white !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow */
+  padding: 10px 20px !important; /* Ensure padding overrides */
+}
+
+/* Override default Bootstrap container padding */
+.container {
+  margin-top: 70px; /* Add margin to push content below navbar */
+}
+
+/* Navbar Brand Styling */
+.navbar-brand {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.navbar-brand .pay {
+  color: #28a745 !important; /* Green color for 'Pay' */
+}
+
+.navbar-brand .spaze {
+  color: #fd7e14 !important; /* Orange color for 'Spaze' */
+}
+
+/* Navbar Buttons */
+.navbar-buttons .btn {
+  background-color: transparent !important;
+  color: white !important;
+  border: 1px solid white !important;
+  margin-left: 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar-buttons .btn:hover {
+  background-color: white !important;
+  color: #1578d0 !important;
+}
+
+.navbar-button {
+  background: none; /* No background */
+  border: none; /* No border */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  font-size: inherit; /* Inherit font size for consistent text styling */
+  color: inherit; /* Inherit text color */
+  cursor: pointer; /* Keep pointer cursor to indicate it's clickable */
+  display: inline; /* Make it appear like text */
+}
+
+.navbar-button:focus {
+  outline: none; /* Remove focus outline */
+}
